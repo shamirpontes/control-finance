@@ -28,7 +28,7 @@ namespace ControlFinance.Domain.Notifications
         public List<Notifier> Notifications { get; set; }
 
 
-        public bool ValidarPropriedade<T>(T value, string PropertyName) 
+        public bool ValidateProperty<T>(T value, string PropertyName) 
         {
             if (value == null || (value is string && string.IsNullOrWhiteSpace(value as string)) || string.IsNullOrWhiteSpace(PropertyName)) 
             {
