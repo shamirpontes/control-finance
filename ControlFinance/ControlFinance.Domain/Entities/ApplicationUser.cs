@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ControlFinance.Domain.Entities 
 {
-    internal class ApplicationUser : IdentityUser
+    public class ApplicationUser : IdentityUser
     {
         [Column("USR_CPF")]
 
